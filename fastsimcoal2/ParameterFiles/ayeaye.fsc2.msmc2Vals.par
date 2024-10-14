@@ -1,0 +1,87 @@
+//Number of population samples (demes)
+2
+//Population effective sizes (number of genomes)
+90222 sfspool 0
+32000 sfspool 1
+//Sample sizes - samples age - inbreeding coefficient
+8
+26
+//Growth rates
+0
+0
+//Number of migration matrices
+0
+//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
+14 historical event
+3 0 0 0 510 0 0 absoluteResize // resize recent north
+3 1 1 0 562 0 0 absoluteResize // resize recent other
+100 0 0 0 276 0 0 absoluteResize // resize north
+100 1 1 0 254 0 0 absoluteResize // resize other
+500 0 0 0 457 0 0 absoluteResize // resize north
+500 1 1 0 417 0 0 absoluteResize // resize other
+2000 0 0 0 1104 0 0 absoluteResize // resize north
+2000 1 1 0 1165 0 0 absoluteResize // resize other
+5000 0 0 0 2224 0 0 absoluteResize // resize north
+5000 1 1 0 2034 0 0 absoluteResize // resize other
+7000 1 1 0 4055 0 0 absoluteResize // resize other post-bottleneck
+8368 0 0 0 7444 0 0 absoluteResize // resize north post-bottleneck
+8369 0 1 1 656288 0 0 absoluteResize // Both subpopulations are merged in deme1 (others) at pre-bottleneck size
+8369 0 0 0 0 0 0// North population is killed
+//Number of independent loci (chromosomes)
+14 1
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 18602764 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 16060938 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 17214299 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 14784439 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 12151006 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 12101961 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 8717938 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 9958554 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 6331343 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 2950556 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 2046229 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1970739 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1919907 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1563188 1e-8 1.52e-8 0.33

@@ -1,0 +1,17 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt? #name #dist. #min #max
+//all N are in number of haploid individuals
+1 NCURNORTH$  unif    1e3       1e5     output
+1 NCUROTHER$  unif    1e3       1e5     output
+1 DECLSTRT$   unif    1         250     output
+0 MIGNOR2OTH$ unif    1e-4      0.1     output
+0 MIGOTH2NOR$ unif    1e-4      0.1     output
+0 DECLRATIO$  logunif 1.10      1e5     output
+
+[COMPLEX PARAMETERS]
+1 NCURCOMBN$  = NCURNORTH$+NCUROTHER$   output
+0 DECLLAM$    = log(DECLRATIO$)         output
+0 DECLRATE$   = DECLLAM$/DECLSTRT$      output
+1 NANC$       = NCURCOMBN$*DECLRATIO$   output 

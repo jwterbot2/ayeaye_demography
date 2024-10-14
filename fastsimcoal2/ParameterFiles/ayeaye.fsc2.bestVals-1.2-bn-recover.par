@@ -1,0 +1,77 @@
+//Number of population samples (demes)
+2
+//Population effective sizes (number of genomes)
+2938 sfspool 0
+7229 sfspool 1
+//Sample sizes - samples age - inbreeding coefficient
+8
+26
+//Growth rates
+-0.0159338
+-0.0159338
+//Number of migration matrices
+0
+//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
+4 historical event
+10 0 0 0 1 0 0
+10 1 1 0 1 0 0
+1067 0 1 1 23706 0 0 absoluteResize //Both subpopulations are merged in deme1 (others)
+1067 0 0 0 0 0 0 //North population is killed
+//Number of independent loci (chromosomes)
+14 1
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 18602764 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 16060938 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 17214299 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 14784439 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 12151006 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 12101961 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 8717938 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 9958554 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 6331343 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 2950556 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 2046229 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1970739 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1919907 1e-8 1.52e-8 0.33
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block: data type, num loci, rec. rate and mut rate + optional parameters
+DNA 1563188 1e-8 1.52e-8 0.33
