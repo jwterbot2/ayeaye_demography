@@ -1,0 +1,20 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt? #name #dist. #min #max
+//all N are in number of haploid individuals
+1 NCURNORTH$  unif    1e3       1e5  output
+1 NCUROTHER$  unif    1e3       1e5  output
+1 GROWSTRT$   unif    1         15   output
+1 BOTDELAY$   unif    5         250  hide
+0 MIG$        unif    1e-4      0.1  output
+0 BOTRATE$    unif    1e-4      0.5  output  bounded
+0 EXPANDRATIO$ unif   0.01     1           output bounded
+
+[COMPLEX PARAMETERS]
+1 NCURCOMBN$  = NCURNORTH$+NCUROTHER$      output
+1 NBOTCOMBN$  = NCURCOMBN$*EXPANDRATIO$    output
+1 BOTSTRT$    = GROWSTRT$ + BOTDELAY$      output
+0 GROWLAM$    = log(EXPANDRATIO$)          output
+0 EXPANDR$    = GROWLAM$/GROWSTRT$         output
+1 NANC$       = NBOTCOMBN$ / BOTRATE$      output

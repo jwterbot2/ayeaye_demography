@@ -1,0 +1,15 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt? #name #dist. #min #max
+//all N are in number of haploid individuals
+1 NCURNORTH$  unif    1e3       1e5  output
+1 NCUROTHER$  unif    1e3       1e5  output
+1 BOTSTRT$    unif     5        250  output
+0 MIG$        unif    1e-4      0.1  output
+0 BOTRATE$    unif    1e-4      0.5  output  bounded
+
+
+[COMPLEX PARAMETERS]
+1 NBOTCMBN$   = NCURNORTH$ + NCUROTHER$              output
+1 NANC$       = NBOTCMBN$ / BOTRATE$                 output
