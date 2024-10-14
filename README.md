@@ -48,3 +48,7 @@
 	  estimation using the simulated SFS as called by the shell script.
 
 ### dadi
+
+### demesdraw
+	This folder contains five .yaml files in the Demes format describing the best model and parameters for 
+ 	  MSMC2 (approximate best model), fastsimcoal2 (best 3 models), and dadi (best model).
