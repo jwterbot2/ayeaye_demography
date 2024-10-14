@@ -51,6 +51,12 @@
 	  by the shell script.
 
 ### dadi
+	This folder contains 12 files for running the dadi demographic inference.
+ 	Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py are all used to run the Portik pipeline on 2D SFS, with the addition of the bottleneck_split_growth model.  
+  	Results_Summary_Extended.txt contains the results from the run of the Portik Pipeline to identify the best fitting model.
+    	dadi_aye_aye_bestFit.py is a python script to run dadi on the best fitting model from the Portik pipeline. run_dadi_bestFit_aye_aye.sh and .sub are the submission scripts for running this python script on OSG.
+     	dadi_empirical_CI_parameters.txt contains results from dadi being run on the best fit model 1000 times.
+	aye_aye_dadi_bestFit_msprime.py is a python script for simulating the best fitting dadi model in msprime. The sfs.zip folder contains the sfs for these simulations, and the simFit_sfs.zip folder contains the inferred dadi sfs from running dadi on those simulations. The best fit for each simulation parameter is stored in dadi_CI_parameters.txt      
 
 ### demesdraw
 	This folder contains five .yaml files in the Demes format describing the best model and 
