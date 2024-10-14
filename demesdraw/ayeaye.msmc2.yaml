@@ -1,0 +1,30 @@
+description: Aye-Aye Bottleneck and Split with Recovery Model with Best Parameters
+time_units: generations
+
+demes:
+- name: Ancestral
+  description: Root population
+  epochs:
+  - {end_time: 8369, start_size: 656288}
+- name: North
+  description: North population
+  ancestors: [Ancestral]
+  epochs:
+  - {end_time: 8368, start_size: 7444}
+  - {end_time: 5000, start_size: 2224}
+  - {end_time: 2000, start_size: 1104}
+  - {end_time: 500, start_size: 457}
+  - {end_time: 100, start_size: 276}
+  - {end_time: 3, start_size: 510}
+  - {end_time: 0, start_size: 90222}
+- name: NonNorth
+  description: Non-North population
+  ancestors: [Ancestral]
+  epochs:
+  - {end_time: 7000, start_size: 4055}
+  - {end_time: 5000, start_size: 2034}
+  - {end_time: 2000, start_size: 1165}
+  - {end_time: 500, start_size: 417}
+  - {end_time: 100, start_size: 254}
+  - {end_time: 3, start_size: 562}
+  - {end_time: 0, start_size: 276861}
